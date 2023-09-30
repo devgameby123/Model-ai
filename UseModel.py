@@ -10,9 +10,9 @@ print("กำลังทำงาน")
 model = load_model('sentiment_model.h5')
 
 # จำนวนคำที่สูงสุดที่จะให้ Network เรียนรู้
-vocab_size = 1000000
+vocab_size = 100000
 embedding_dim = 64
-max_length = 100000
+max_length = 10000
 trunc_type = 'post'
 padding_type = 'post'
 oov_tok = "<UNKNOWN>"
